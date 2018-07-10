@@ -7,8 +7,9 @@ def oxford_comma(array)
   array[-1] = "and " + array[-1]
   array = array.join(", ")
   puts array
+  return array
 end
 end
 
 
-# Test data: oxford_comma(["amy", "bill", "charly"])
+oxford_comma(["amy", "bill", "charly"])
